@@ -1,5 +1,8 @@
 package tr.gov.tr.sf201.di;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Araba {
     private final Motor motor;
 
